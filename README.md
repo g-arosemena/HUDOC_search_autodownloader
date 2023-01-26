@@ -2,6 +2,8 @@
 
 The point of this program is to provide an easy way to download European Court of Human Rights cases of a search. The script provides an example for the downloads a particular search of cases (see below), but can be edited to work with other searches. 
 
+<img src="img/search.PNG" height=500 width=800>
+
 The objective of this script is enable reproducible research. Automated downloading helps by ensuring that:
 * Overcoming the time limitations that manual downloads involve.
 * Ensuring there is a code record of how cases where downloaded, to ensure a lack of selection bias or human error, and a print out of failed downloads.
@@ -11,7 +13,7 @@ Automation uses selenium and chromedriver. Make sure you have a chromedriver ver
 The output of this notebook puts the cases in txt and html format. 
 
 You will need to run this from the command line, pointing to a yaml file with the flag -y. The yaml file **must** contain
-* your search
+* your search (copied from the address bar after querying HUDOC)
 * the directory for storing html files
 * the directory for storing txt files
 * the directory where chromedriver is to be found.
