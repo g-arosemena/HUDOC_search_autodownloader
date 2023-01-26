@@ -1,0 +1,4 @@
+search: https://hudoc.echr.coe.int/eng#{"fulltext":["dignity"],"documentcollectionid2":["GRANDCHAMBER"]}
+driver_path: D:/driver/chromedriver.exe
+text_directory: text_files/
+html_directory: html_files/
