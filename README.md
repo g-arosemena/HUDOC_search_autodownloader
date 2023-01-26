@@ -2,7 +2,7 @@
 
 The point of this program is to provide an easy way to download European Court of Human Rights cases of a search. The script provides an example for the downloads a particular search of cases (see below), but can be edited to work with other searches. 
 
-<img src="img/search.PNG" height=500 width=800>
+<img src="img/search.PNG" height=500 width=1200>
 
 The objective of this script is enable reproducible research. Automated downloading helps by ensuring that:
 * Overcoming the time limitations that manual downloads involve.
