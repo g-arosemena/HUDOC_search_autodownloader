@@ -6,7 +6,7 @@ The point of this program is to provide an easy way to download European Court o
 
 Put the search and complete the fields of the YAML file so that they look like this, modified to suit your your needs. 
 
-<img src="img/yaml.PNG" height=500 width=800>
+<img src="img/yaml.PNG" height=400 width=1000>
 
 Then run the scrip from your command line, with one single flag -y for the location of your yaml file.
 
