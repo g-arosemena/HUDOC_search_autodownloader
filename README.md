@@ -20,6 +20,9 @@ You will need to run this from the command line, pointing to a yaml file with th
 
 Please follow example.yml and modify to suit your needs.
 
+<img src="img/example.PNG" height=500 width=800>
+
+
 ### added value:
 
 Although mass datasets with "all" the ECHR cases are available, these datasets might have many missing cases leading to unknown degrees of lost data. Downloading of a search leads to smaller datasets, but more insight into how many cases downloaed versus failed to download.
