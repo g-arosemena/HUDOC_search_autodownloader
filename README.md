@@ -1,33 +1,31 @@
 # HUDOC Downloader
 
-The point of this program is to provide an easy way to download European Court of Human Rights cases of a search. The script provides an example for the downloads a particular search of cases (see below), but can be edited to work with other searches. 
+The point of this program is to provide an easy way to download European Court of Human Rights cases of a search. You need to first search in HUDOC and then copy paste the search terms off the address bar. 
 
 <img src="img/search.PNG" height=500 width=1200>
 
-The objective of this script is enable reproducible research. Automated downloading helps by ensuring that:
-* Overcoming the time limitations that manual downloads involve.
-* Ensuring there is a code record of how cases where downloaded, to ensure a lack of selection bias or human error, and a print out of failed downloads.
+Put the search and complete the fields of the YAML file so that they look like this, modified to suit your your needs. 
 
-Automation uses selenium and chromedriver. Make sure you have a chromedriver version that is compatible with your chrome version.
+<img src="img/yaml.PNG" height=500 width=800>
 
-The output of this notebook puts the cases in txt and html format. 
-
-You will need to run this from the command line, pointing to a yaml file with the flag -y. The yaml file **must** contain
-* your search (copied from the address bar after querying HUDOC)
-* the directory for storing html files
-* the directory for storing txt files
-* the directory where chromedriver is to be found.
-
-Please follow example.yml and modify to suit your needs.
+Then run the scrip from your command line, with one single flag -y for the location of your yaml file.
 
 <img src="img/example.PNG" height=500 width=800>
 
+The output of this notebook puts the cases in txt and html format in the directories specified in the yaml file. If they do not exist they are created. 
 
-### added value:
+Automation uses selenium and chromedriver. Make sure you have a chromedriver version that is compatible with your chrome version. You can download chromedriver from [here](https://chromedriver.chromium.org/downloads).
 
-Although mass datasets with "all" the ECHR cases are available, these datasets might have many missing cases leading to unknown degrees of lost data. Downloading of a search leads to smaller datasets, but more insight into how many cases downloaed versus failed to download.
+You can find your version of chrome in Settings --> About Chrome.
 
-Also, it is not technically scraping, for those with concerns on the legality of that.
+<img src="img/chrome.PNG" height=500 width=500>
+
+## Objectives
+
+The objective of this script is enable reproducible research. Automated downloading helps by ensuring that:
+* Overcoming the time limitations that manual downloads involve.
+* Overcomes legal barriers to web scraping which (however unreasonable) may exist in some places.
+* Downloading off a search should enable the researcher to know how many of the cases the search finds where actually downloaded. The program reports failed downloads.
 
 ### TODO
 
