@@ -26,6 +26,7 @@ The objective of this script is enable reproducible research. Automated download
 * Overcoming the time limitations that manual downloads involve.
 * Overcomes legal barriers to web scraping which (however unreasonable) may exist in some places.
 * Downloading off a search should enable the researcher to know how many of the cases the search finds where actually downloaded. The program reports failed downloads.
+* Be useful for qualitative researchers that need a smaller number of cases and ease of use.
 
 ### TODO
 
