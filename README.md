@@ -32,4 +32,3 @@ The objective of this script is enable reproducible research. Automated download
 
 * add flag to run headless or not
 * get a written report of donwloaded, non-downloaded files
-* figure out how to upload to pypi
