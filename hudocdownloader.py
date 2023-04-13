@@ -115,7 +115,7 @@ for i in target:
         driver.get(f'https://hudoc.echr.coe.int/eng#{{"itemid":["{i}"]}}')
         time.sleep(2)
         html = driver.page_source
-        x = open(f"{html_directory}{i}.txt", "w", encoding="Utf8")
+        x = open(f"{html_directory}{i}.htlm", "w", encoding="Utf8")
         x.write(html)
         f.close()
         soup = BeautifulSoup(html, "html.parser")
